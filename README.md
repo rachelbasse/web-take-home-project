@@ -109,7 +109,7 @@ const payload = {
 
 ## Calling our API
 
-Use the `RestApiClient` to call our API. All requests to our API require two main Header fields:
+Use the `/util/RestApiClient` to call our API. All requests to our API require two main Header fields:
 * Workyard-Agent
   * This is a string that specifies the user's platform, OS, device id, appVersion, screenWidth, screenHeight, devicePixelRatio, debug_flag and country code. Please feel free to ask about this.
 * Authorization
