@@ -104,4 +104,5 @@ const payload = {
 
 #### The Home page (projects posted) ####
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445825/Home_with_projects_vvarvk.png)
+* Add new projects that you post to the redux store under the ProjectReducer
 
