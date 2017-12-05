@@ -63,12 +63,11 @@ If you don't have Sketch, here are some images of what we'll be building:
 #### Step 2: The "Post Project" modal (fields empty) ####
 * Clicking the "Create Project" button will open the "Post Project" modal.
 - - - -
-![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445822/Post_Project_Modal_empty_dngcrt.png)
+![alt text](http://res.cloudinary.com/small-change/image/upload/v1512449739/Screen_Shot_2017-12-05_at_3.53.18_pm_pqezqo.png)
+
+#### The "Post Project" modal (all fields filled) ####
+![alt text](http://res.cloudinary.com/small-change/image/upload/v1512449739/Screen_Shot_2017-12-05_at_3.53.38_pm_sjjksv.png)
 
 #### The Home page (projects posted) ####
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445825/Home_with_projects_vvarvk.png)
 
-
-
-#### The "Post Project" modal (all fields filled) ####
-![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445822/Post_Project_Modal_valid_input_state_xaqlq6.png)
