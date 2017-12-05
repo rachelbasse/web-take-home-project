@@ -26,7 +26,7 @@ You should be able to see the boring grey template app on port 8000! Woooo.
 - - - -
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512441119/Template_qyjvzq.png)
 
-## So why are we doing this?
+## So, why are we doing this?
 
 This is a tangible way for you to show us:
 
@@ -35,18 +35,20 @@ This is a tangible way for you to show us:
 * That you're excellent at making web apps look like the designs given to you.
 * That you're able to stick to coding conventions in an existing codebase.
 
-## Well what are Workyard's coding conventions?
+## Well, what are Workyard's coding conventions?
 
 * ***Skinny components, fat helpers.*** Put as much complexity as possible into helper files.
   * This make components much easier to read.
 * Make mapStateToProps full of helper calls, leave render() as skinny as possible.
   * This make components much easier to read.
-* ***Classes over function.*** Strong preference for react components to be classes connected to the store as opposed to functions.
+* ***Classes over functions.*** Strong preference for react components to be classes connected to the store as opposed to functions.
   * When needs change, refactoring react functions into classes becomes a pain. It's easier to just make components extendable the first time around.
 * ***Break related components into a single subfolder in "views"*** 
 * ***Component, reducers, actions, scss & css files are camel case*** with the first letter capitalised e.g. Home.js, ProjectActions.js
 * ***ClassNames are lowercase*** with hypens e.g. "home-container"
 * Styles are done in scss files. We use create-react-app which automatically transpiles Example.scss into a new file in the same directory called Example.css . You can then import Example.css into any component you need.
+* *** 1 return statement per file ***
+  * Again, easier reading. Plus makes code re-use easier.
 
 
 ## The Mission Specs
@@ -65,7 +67,7 @@ If you don't have Sketch, here are some images of what we'll be building:
 * On Workyard's web app, we use http://www.material-ui.com/ quite a bit. You might find their TextField, SelectField & MenuItem are pretty handy.
 * For the "Project Type" and "Contract Value" drop downs, use the options as defined in `util/Constants.js`.
 * For the "Add location" field, please use the Google Places API. The Google Places library has already been imported with our API key in public/index.html.
-* For the "Upload photos" field, we use the Uploadcare library. 
+* For the "Upload photos" field, we use the Uploadcare library. The `openUploadCareDialog` helper in `util/helpers/ProjectHelpers.js` has been provided for you.
 - - - -
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512449739/Screen_Shot_2017-12-05_at_3.53.18_pm_pqezqo.png)
 
