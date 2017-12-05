@@ -93,13 +93,24 @@ const payload = {
   "default_image_url": "https://ucarecdn.com/52d0be9d-e785-4b3b-9e13-e05f5aba6b02/",
   "project_type_id": "3",
   "min_contract_value": 2500,
-  "max_contract_value": 5000,
-  "ref_name": "",
-  "ref_business_name": "",
-  "ref_email": ""
+  "max_contract_value": 5000
 }
+            
 ```
-* If you're POST was successful, it should appear at https://stg.workyard.com/au/projects/nearby (if you're in the US, change "au", to "us" in the URL)
+* If you're POST was successful, it should appear at https://stg.workyard.com/au/projects/nearby (if you're in the US, change "au", to "us" in the URL).
+* Our API has some validations on these payload fields
+  * suburb: required|between:2,50
+  * state: required|between:2,3
+  * project_type_id: required|integer
+  * min_contract_value: required|integer
+  * max_contract_value: required|integer
+  * location_lat:required|numeric
+  * location_long: required|numeric
+  * date_unix: required|numeric
+  * address: required|between:1,255
+  * description: required|between:10,250
+  * default_image_url: required|url|in:{{images_list}}
+  * images: required|array
 - - - -
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512449739/Screen_Shot_2017-12-05_at_3.53.38_pm_sjjksv.png)
 
