@@ -107,4 +107,10 @@ const payload = {
 - - - -
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445825/Home_with_projects_vvarvk.png)
 
+## Calling our API
 
+Use the `RestApiClient` to call our API. All requests to our API require two main Header fields:
+* Workyard-Agent
+** This is a string that specifies the user's platform, OS, device id, appVersion, screenWidth, screenHeight, devicePixelRatio, debug_flag and country code. Please feel free to ask about this.
+* Authorization
+** This specifies whether the the user is requesting a publicly available resource (BASIC authorization) or a privately available resource only accessible to a particular user (BEARER authorization). Again, please ask about this if you have any questions.
