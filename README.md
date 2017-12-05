@@ -43,6 +43,7 @@ This is a tangible way for you to show us:
   * This make components much easier to read.
 * ***Classes over function.*** Strong preference for react components to be classes connected to the store as opposed to functions.
   * When needs change, refactoring react functions into classes becomes a pain. It's easier to just make components extendable the first time around.
+* ***Break related components into a single subfolder in "views"*** 
 * ***Component, reducers, actions, scss & css files are camel case*** with the first letter capitalised e.g. Home.js, ProjectActions.js
 * ***ClassNames are lowercase*** with hypens e.g. "home-container"
 * Styles are done in scss files. We use create-react-app which automatically transpiles Example.scss into a new file in the same directory called Example.css . You can then import Example.css into any component you need.
@@ -54,14 +55,18 @@ If you have Sketch, you can download the designs here: https://drive.google.com/
 
 If you don't have Sketch, here are some images of what we'll be building:
 
-#### The Home page (no projects) ####
+#### Step 1: The Home page (no projects) ####
+* Style the bland brown boilerplate to look like the home page below.
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445823/Home_default_gzcp54.png)
+
+#### Step 2: The "Post Project" modal (fields empty) ####
+* Clicking the "Create Project" button will open the "Post Project" modal.
+![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445822/Post_Project_Modal_empty_dngcrt.png)
 
 #### The Home page (projects posted) ####
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445825/Home_with_projects_vvarvk.png)
 
-#### The "Post Project" modal (fields empty) ####
-![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445822/Post_Project_Modal_empty_dngcrt.png)
+
 
 #### The "Post Project" modal (all fields filled) ####
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445822/Post_Project_Modal_valid_input_state_xaqlq6.png)
