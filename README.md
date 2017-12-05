@@ -98,8 +98,8 @@ const payload = {
   "ref_business_name": "",
   "ref_email": ""
 }
-
 ```
+* If you're POST was successful, it should appear at https://stg.workyard.com/au/projects/nearby (if you're in the US, change "au", to "us" in the URL)
 - - - -
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512449739/Screen_Shot_2017-12-05_at_3.53.38_pm_sjjksv.png)
 
