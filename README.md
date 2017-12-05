@@ -2,7 +2,7 @@
 
 
 
-Hey there, I'm Sam. I'm a web developer at Workyard and a medium pace bowler for the Killara Bingles Cricket Club. I'll be guiding you through this take home project.
+Hello gentlefolk, I'm Sam. I'm a web developer at Workyard and a medium pace bowler for the Killara Bingles Cricket Club. I'll be guiding you through this take home project.
 
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512434876/Photo_on_5-12-17_at_11.47_am_n7qew1.jpg)
 
@@ -115,3 +115,9 @@ Use the `/util/RestApiClient` to call our API. All requests to our API require t
   * This is a string that specifies the user's platform, OS, device id, appVersion, screenWidth, screenHeight, devicePixelRatio, debug_flag and country code. Please feel free to ask about this.
 * Authorization
   * This specifies whether the the user is requesting a publicly available resource (BASIC authorization) or a privately available resource only accessible to a particular user (BEARER authorization). Again, please ask about this if you have any questions.
+
+## How to get in touch
+
+If you have any questions, concerns or suggestions please feel free to ping me (Sam, the dude in the photo above) on +61432 211 241.
+Happy coding! Workyard is a pretty awesome place to work, I hope to see you soon! 
+
