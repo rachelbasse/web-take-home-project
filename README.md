@@ -10,7 +10,7 @@ The mission, should you choose to accept, is to build a "Post a Project" modal i
 
 ## Getting started on your machine
 
-The first step is to fork this repo. After you have forked the repo, clone your forked version (the one on your GitHub) onto your machine.
+The first step is to fork this repo. After you have forked the repo, clone your forked version down onto your machine.
 
 Install the repo's dependencies
 
@@ -18,4 +18,4 @@ Install the repo's dependencies
 
 Then start a local server:
 
-`npm start'
+`npm start`
