@@ -19,3 +19,5 @@ Install the repo's dependencies
 Then start a local server:
 
 `npm start`
+
+You should be able to see the app on port 8000! Woooo.
