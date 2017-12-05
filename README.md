@@ -59,7 +59,7 @@ If you have Sketch, you can download the designs here: https://drive.google.com/
 If you don't have Sketch, here are some images of what we'll be building:
 
 #### Step 1: The Home page (no projects) ####
-* Style the bland brown boilerplate to look like the home page below.
+* Style the bland grey boilerplate to look like the home page below.
 - - - -
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445823/Home_default_gzcp54.png)
 
