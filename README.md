@@ -35,6 +35,19 @@ This is a tangible way for you to show us:
 * That you're excellent at making web apps look like the designs given to you.
 * That you're able to stick to coding conventions in an existing codebase.
 
+## Well what are Workyard's coding conventions?
+
+* Skinny components, fat helpers. Put as much complexity as possible into helper files.
+  * This make components much easier to read.
+* Make mapStateToProps full of helper calls, leave render() as skinny as possible.
+  * This make components much easier to read.
+* Strong preference for react components to be classes connected to the store as opposed to functions.
+  * When needs change, refactoring react functions into classes becomes a pain. It's easier to just make components extendable the first time around.
+* Component, reducers, actions, scss & css files are camel case with the first letter capitalised e.g. Home.js, ProjectActions.js
+* ClassNames are lowercase with hypens e.g. "home-container"
+* Styles are done in scss files. We use create-react-app which automatically transpiles Example.scss into a new file in the same directory called Example.css . You can then import Example.css into any component you need.
+
+
 ## The Mission Specs
 
 If you have Sketch, you can download the designs here: https://drive.google.com/a/wurble.com.au/file/d/1X569xGMtO_rYW5BBI2-frOxaacaQZm1K/view?usp=sharing
