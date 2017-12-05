@@ -12,7 +12,7 @@ The mission, should you choose to accept, is to build a "Post a Project" modal i
 
 The first step is to fork this repo. After you have forked the repo, clone your forked version down onto your machine.
 
-Install the repo's dependencies
+Install the repo's dependencies:
 
 `npm install`
 
