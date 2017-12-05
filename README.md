@@ -103,6 +103,7 @@ const payload = {
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512449739/Screen_Shot_2017-12-05_at_3.53.38_pm_sjjksv.png)
 
 #### The Home page (projects posted) ####
-![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445825/Home_with_projects_vvarvk.png)
 * Add new projects that you post to the redux store under the ProjectReducer
+![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445825/Home_with_projects_vvarvk.png)
+
 
