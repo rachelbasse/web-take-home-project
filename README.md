@@ -23,7 +23,7 @@ Then start a local server:
 `npm start`
 
 You should be able to see the boring grey template app on port 8000! Woooo.
-<br />
+- - - -
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512441119/Template_qyjvzq.png)
 
 ## So why are we doing this?
@@ -57,7 +57,7 @@ If you don't have Sketch, here are some images of what we'll be building:
 
 #### Step 1: The Home page (no projects) ####
 * Style the bland brown boilerplate to look like the home page below.
-<br/ >
+- - - -
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445823/Home_default_gzcp54.png)
 
 #### Step 2: The "Post Project" modal (fields empty) ####
