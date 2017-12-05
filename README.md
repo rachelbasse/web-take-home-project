@@ -37,14 +37,14 @@ This is a tangible way for you to show us:
 
 ## Well what are Workyard's coding conventions?
 
-* Skinny components, fat helpers. Put as much complexity as possible into helper files.
+* ***Skinny components, fat helpers.*** Put as much complexity as possible into helper files.
   * This make components much easier to read.
 * Make mapStateToProps full of helper calls, leave render() as skinny as possible.
   * This make components much easier to read.
-* Strong preference for react components to be classes connected to the store as opposed to functions.
+* ***Classes over function.*** Strong preference for react components to be classes connected to the store as opposed to functions.
   * When needs change, refactoring react functions into classes becomes a pain. It's easier to just make components extendable the first time around.
-* Component, reducers, actions, scss & css files are camel case with the first letter capitalised e.g. Home.js, ProjectActions.js
-* ClassNames are lowercase with hypens e.g. "home-container"
+* ***Component, reducers, actions, scss & css files are camel case*** with the first letter capitalised e.g. Home.js, ProjectActions.js
+* ***ClassNames are lowercase*** with hypens e.g. "home-container"
 * Styles are done in scss files. We use create-react-app which automatically transpiles Example.scss into a new file in the same directory called Example.css . You can then import Example.css into any component you need.
 
 
