@@ -69,7 +69,7 @@ If you don't have Sketch, here are some images of what we'll be building:
 - - - -
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512449739/Screen_Shot_2017-12-05_at_3.53.18_pm_pqezqo.png)
 
-#### The "Post Project" modal (all fields filled) ####
+#### Step 3: The "Post Project" modal (all fields filled) ####
 * For the "Project Type" and "Contract Value" drop downs, use the options as defined in `util/Constants.js`.
 * For the "Add location" field, please use the Google Places API. The Google Places library has already been imported with our API key in public/index.html.
 * For the "Upload photos" field, we use the Uploadcare library. The `openUploadCareDialog` helper in `util/helpers/ProjectHelpers.js` has been provided for you.
@@ -114,7 +114,7 @@ const payload = {
 - - - -
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512449739/Screen_Shot_2017-12-05_at_3.53.38_pm_sjjksv.png)
 
-#### The Home page (projects posted) ####
+#### Step 4: The Home page (projects posted) ####
 * Add new projects that you post to the redux store under the ProjectReducer
 - - - -
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445825/Home_with_projects_vvarvk.png)
