@@ -7,3 +7,15 @@ Hey there, I'm Sam. I'm a web developer at Workyard and a medium pace bowler for
 ## The Mission
 
 The mission, should you choose to accept, is to build a "Post a Project" modal in React. We'll POST your new projects to Workyard's staging API. After the project is successfully posted, we'll show all your new projects in a list of very simple cards.
+
+## Getting started on your machine
+
+The first step is to fork this repo. After you have forked the repo, clone your forked version (the one on your GitHub) onto your machine.
+
+Install the repo's dependencies
+
+`npm install`
+
+Then start a local server:
+
+`npm start'
