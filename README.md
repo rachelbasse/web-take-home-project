@@ -47,6 +47,8 @@ This is a tangible way for you to show us:
 * ***Component, reducers, actions, scss & css files are camel case*** with the first letter capitalised e.g. Home.js, ProjectActions.js
 * ***ClassNames are lowercase*** with hypens e.g. "home-container"
 * Styles are done in scss files. We use create-react-app which automatically transpiles Example.scss into a new file in the same directory called Example.css . You can then import Example.css into any component you need.
+* ***Use constants*** for string values. If you're doing a string comparison, you probably want to stick what you're comparing your variable to in the `util/Constants.js` file.
+
 
 
 ## The Mission Specs
