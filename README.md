@@ -47,7 +47,7 @@ This is a tangible way for you to show us:
 * ***Component, reducers, actions, scss & css files are camel case*** with the first letter capitalised e.g. Home.js, ProjectActions.js
 * ***ClassNames are lowercase*** with hypens e.g. "home-container"
 * Styles are done in scss files. We use create-react-app which automatically transpiles Example.scss into a new file in the same directory called Example.css . You can then import Example.css into any component you need.
-* *** 1 return statement per file ***
+* ***1 return statement per file***
   * Again, easier reading. Plus makes code re-use easier.
 
 
@@ -68,6 +68,33 @@ If you don't have Sketch, here are some images of what we'll be building:
 * For the "Project Type" and "Contract Value" drop downs, use the options as defined in `util/Constants.js`.
 * For the "Add location" field, please use the Google Places API. The Google Places library has already been imported with our API key in public/index.html.
 * For the "Upload photos" field, we use the Uploadcare library. The `openUploadCareDialog` helper in `util/helpers/ProjectHelpers.js` has been provided for you.
+* Post the new project Workyard's staging API (see the "Calling our API" section below). The payload should look like:
+```
+const payload = {
+  "suburb": "Mascot",
+  "state": "NSW",
+  "location_place_id": "ChIJz-9y-iGxEmsRQMAyFmh9AQU",
+  "location_lat": -33.9291,
+  "location_long": 151.18793000000005,
+  "address": "Mascot NSW 2020, Australia",
+  "date_unix": 1512447118,
+  "description": "Underground services mains to connect 4 new units. Completed electrical through out.",
+  "images": [
+    "https://ucarecdn.com/52d0be9d-e785-4b3b-9e13-e05f5aba6b02/"
+  ],
+  "files": [
+    "52d0be9d-e785-4b3b-9e13-e05f5aba6b02"
+  ],
+  "default_image_url": "https://ucarecdn.com/52d0be9d-e785-4b3b-9e13-e05f5aba6b02/",
+  "project_type_id": "3",
+  "min_contract_value": 2500,
+  "max_contract_value": 5000,
+  "ref_name": "",
+  "ref_business_name": "",
+  "ref_email": ""
+}
+
+```
 - - - -
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512449739/Screen_Shot_2017-12-05_at_3.53.18_pm_pqezqo.png)
 
