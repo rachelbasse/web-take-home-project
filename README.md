@@ -23,3 +23,12 @@ Then start a local server:
 You should be able to see the app on port 8000! Woooo.
 
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512441119/Template_qyjvzq.png)
+
+## So why are we doing this?
+
+This is a tangible way for you to show us:
+
+* That you know react and redux.
+* That you're comfortable asking for help when you get stuck and can communicate technical concepts clearly.
+* That you're excellent at making web apps look like the designs given to you.
+* That you're able to stick to coding conventions in an existing codebase.
