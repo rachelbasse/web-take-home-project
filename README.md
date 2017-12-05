@@ -65,7 +65,7 @@ If you don't have Sketch, here are some images of what we'll be building:
 #### Step 2: The "Post Project" modal (fields empty) ####
 * Clicking the "Create Project" button will open the "Post Project" modal.
 * On Workyard's web app, we use http://www.material-ui.com/ quite a bit. You might find their TextField, SelectField & MenuItem are pretty handy.
-
+- - - -
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512449739/Screen_Shot_2017-12-05_at_3.53.18_pm_pqezqo.png)
 
 #### The "Post Project" modal (all fields filled) ####
@@ -104,6 +104,7 @@ const payload = {
 
 #### The Home page (projects posted) ####
 * Add new projects that you post to the redux store under the ProjectReducer
+- - - -
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512445825/Home_with_projects_vvarvk.png)
 
 
