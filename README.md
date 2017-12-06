@@ -34,6 +34,7 @@ This is a tangible way for you to show us:
 * That you're comfortable asking for help when you get stuck and can communicate technical concepts clearly.
 * That you're excellent at making web apps look like the designs given to you.
 * That you're able to stick to coding conventions in an existing codebase.
+* That your code is extendable & easy to read.
 
 ## Well, what are Workyard's coding conventions?
 
