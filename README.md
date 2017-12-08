@@ -23,6 +23,9 @@ Then start a local server:
 `npm start`
 
 You should be able to see the boring grey template app on port 8000! Woooo.
+
+Please remember to commit often so we can see how you're tracking...
+
 - - - -
 ![alt text](http://res.cloudinary.com/small-change/image/upload/v1512441119/Template_qyjvzq.png)
 
