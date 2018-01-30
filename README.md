@@ -101,7 +101,8 @@ const payload = {
 }
             
 ```
-* If you're POST was successful, it should appear at https://stg.workyard.com/au/projects/nearby (if you're in the US, change "au", to "us" in the URL).
+* If you're POST was successful, it should appear at https://stagingworkyardwebsite.com/au/projects/nearby (if you're in the US, change "au", to "us" in the URL).
+
 * Our API has some validations on these payload fields
   * suburb: required|between:2,50
   * state: required|between:2,3
