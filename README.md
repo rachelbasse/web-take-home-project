@@ -134,6 +134,6 @@ Use the `/util/RestApiClient` to call our API. All requests to our API require t
 
 ## How to get in touch
 
-If you have any questions, concerns or suggestions please feel free to ping me (Sam, the dude in the photo above) on +61432 211 241.
+If you have any questions, concerns or suggestions please feel free to ping me (Sam, the dude in the photo above) on +1628 202 9242.
 Happy coding! Workyard is a pretty awesome place to work, I hope to see you soon! 
 
